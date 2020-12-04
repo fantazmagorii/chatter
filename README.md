@@ -20,7 +20,7 @@ This endpoint expect one mandatory request body parameter with name payload.
 * Gradle
 * Liquibase 
 * Postgres
-* Docker - a composed docker image can be build and run 
+* Docker - A composed docker image of Postgres and the app itself 
 
 ##### Launch
 In chatter\src\docker\dockerCompose
