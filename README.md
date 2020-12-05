@@ -6,7 +6,7 @@ For the current example the server should support only 2 types of messages:
 * send_text (e.g. http://localhost/messages/send_text)
 * send_emotion (e.g. http://localhost/messages/send_emotion)
 
-This endpoint expect one mandatory request body parameter with name payload.
+This endpoint expects one mandatory request body parameter with name payload.
 
 #### Validation:
 * In case of send_text the payload length should be between 1 and 160
